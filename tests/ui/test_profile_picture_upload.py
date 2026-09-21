@@ -10,16 +10,17 @@ from pages.profile_page import ProfilePage
 
 captured_requests = []
 
-
-def log_request(request):
+def log_response(response):
+    request = response.request
     captured_requests.append({
         "url": request.url,
-        "method": request.method
+        "method": request.method,
+        "status": response.status
     })
 
 
 def test_upload_profile_picture(page, base_url, credentials):
-    page.on("request", log_request)
+    page.on("response", log_response)
 
     login_page = LoginPage(page)
     menu_page = MenuPage(page)
