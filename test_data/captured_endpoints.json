@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/",
+    "method": "GET"
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/js/main.295bba08.js",
+    "method": "GET"
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/css/main.a444fab9.css",
+    "method": "GET"
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/media/Nta%20Logo%20fnl.d253f67aeddc87f99822.png",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/groups",
+    "method": "GET"
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/Nta%20Logo%20fnl.png",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/login",
+    "method": "POST"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/my-enrollments",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/my-instructor-tasks",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/student/today",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/my-instructors/today",
+    "method": "GET"
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/Nta%20Logo%20fnl.png",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1789991663_c65be269.jpg",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/my-testimonials",
+    "method": "GET"
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/Nta%20Logo%20fnl.png",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
+    "method": "PUT"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/profile/image",
+    "method": "POST"
+  },
+  {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1789997725_d6e5eda1.jpg",
+    "method": "GET"
+  }
+]
