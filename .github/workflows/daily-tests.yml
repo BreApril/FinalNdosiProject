@@ -18,12 +18,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Debug environment variables
-        run: |
-          echo "BASE_URL length: ${#NDOSI_BASE_URL}"
-          echo "USERNAME length: ${#NDOSI_USERNAME}"
-          echo "PASSWORD length: ${#NDOSI_PASSWORD}"
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -38,6 +32,9 @@ jobs:
       - name: Run UI tests
         run: python -m pytest tests/ui --alluredir=reports/allure-results -v
         continue-on-error: true
+
+      - name: Show captured endpoints file
+        run: cat test_data/captured_endpoints.json
 
       - name: Run API tests
         run: python -m pytest tests/api --alluredir=reports/allure-results -v
