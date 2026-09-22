@@ -44,8 +44,8 @@ def test_upload_profile_picture(page, base_url, credentials):
     profile_page.upload_profile_picture("test_data/sample_profile_pic.jpg")
     page.screenshot(path="screenshots/05_photo_selected.png")
 
-    profile_page.save_changes()
-    page.wait_for_timeout(1000)
+    upload_response = profile_page.save_changes()
+    assert upload_response.status == 200, f"Upload endpoint returned {upload_response.status}"
     page.screenshot(path="screenshots/06_saved.png")
 
     # Save captured API calls for the API test suite

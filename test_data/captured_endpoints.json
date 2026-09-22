@@ -45,7 +45,7 @@
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/my-instructor-tasks",
+    "url": "https://www.ndosiautomation.co.za/APIDEV/my-instructors/today",
     "method": "GET",
     "status": 200
   },
@@ -60,7 +60,7 @@
     "status": 404
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/my-instructors/today",
+    "url": "https://www.ndosiautomation.co.za/APIDEV/my-instructor-tasks",
     "method": "GET",
     "status": 200
   },
@@ -75,7 +75,7 @@
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1789997725_d6e5eda1.jpg",
+    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1789999548_0dbca2ae.jpg",
     "method": "GET",
     "status": 200
   },
@@ -105,7 +105,7 @@
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1789999548_0dbca2ae.jpg",
+    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1790081751_88a973a8.jpg",
     "method": "GET",
     "status": 200
   }
