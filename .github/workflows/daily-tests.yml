@@ -1,0 +1,60 @@
+name: Ndosi Daily Automation Suite
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 00:00 SAST (SAST = UTC+2)
+  workflow_dispatch:        # allows manual trigger from GitHub Actions tab
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    env:
+      NDOSI_BASE_URL: ${{ secrets.NDOSI_BASE_URL }}
+      NDOSI_USERNAME: ${{ secrets.NDOSI_USERNAME }}
+      NDOSI_PASSWORD: ${{ secrets.NDOSI_PASSWORD }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps
+
+      - name: Run UI tests
+        run: python -m pytest tests/ui --alluredir=reports/allure-results -v
+        continue-on-error: true
+
+      - name: Run API tests
+        run: python -m pytest tests/api --alluredir=reports/allure-results -v
+        continue-on-error: true
+
+      - name: Generate Allure report
+        if: always()
+        run: |
+          npm install -g allure-commandline --unsafe-perm=true
+          allure generate reports/allure-results -o reports/allure-report --clean
+
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: screenshots/
+          if-no-files-found: warn
+
+      - name: Upload Allure report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: reports/allure-report/
+          if-no-files-found: warn
