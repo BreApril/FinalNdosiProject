@@ -18,6 +18,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Debug environment variables
+        run: |
+          echo "BASE_URL length: ${#NDOSI_BASE_URL}"
+          echo "USERNAME length: ${#NDOSI_USERNAME}"
+          echo "PASSWORD length: ${#NDOSI_PASSWORD}"
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
