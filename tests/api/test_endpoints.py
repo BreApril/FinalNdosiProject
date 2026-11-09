@@ -16,7 +16,7 @@ IGNORED_SUBSTRINGS = [
 # Known issue: this endpoint currently returns 404 on the test environment.
 # Documented here so the test suite reflects reality rather than silently failing.
 KNOWN_ISSUES = {
-    "https://www.ndosiautomation.co.za/APIDEV/student/today": 404
+    "/APIDEV/student/today": 404
 }
 
 
@@ -43,17 +43,19 @@ def test_endpoint_status_code(entry):
     method = entry["method"]
     status = entry["status"]
 
-    if url in KNOWN_ISSUES:
-        expected = KNOWN_ISSUES[url]
+    path = url.split("?")[0].rstrip("/")
+    expected = next((v for k, v in KNOWN_ISSUES.items() if path.endswith(k)), None)
+
+    if expected is not None:
         assert status == expected, (
             f"Known issue status changed for {method} {url}: "
             f"expected {expected}, got {status}. This may mean the issue was fixed "
-            f"or a new problem was introduced — please investigate."
+            f"or a new problem was introduced - please investigate."
         )
-        pytest.xfail(f"{url} is a known issue (returns {expected}) — tracked, not a new failure")
+        pytest.xfail(f"{url} is a known issue (returns {expected}) - tracked, not a new failure")
 
     assert 200 <= status < 300, (
-        f"{method} {url} returned unexpected status {status} (expected 2xx)"
+            f"{method} {url} returned unexpected status {status} (expected 2xx)"
     )
 
 
@@ -65,7 +67,7 @@ def test_profile_image_upload_endpoint_specifically():
     data = load_captured_endpoints()
     upload_calls = [
         e for e in data
-        if e["url"] == "https://www.ndosiautomation.co.za/APIDEV/profile/image"
+        if e["url"].split("?")[0].rstrip("/").endswith("/APIDEV/profile/image")
         and e["method"] == "POST"
     ]
     assert len(upload_calls) > 0, "Profile image upload endpoint was never called during the UI flow"

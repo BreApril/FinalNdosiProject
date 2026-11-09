@@ -5,12 +5,32 @@
     "status": 200
   },
   {
-    "url": "https://ndosisimplifiedautomation.vercel.app/static/css/main.8e40ec26.css",
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/css/main.e6c13ad2.css",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://ndosisimplifiedautomation.vercel.app/static/js/main.cba5bd1f.js",
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/js/main.56745338.js",
+    "method": "GET",
+    "status": 200
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/css/541.174adf13.chunk.css",
+    "method": "GET",
+    "status": 200
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/js/239.0a18de07.chunk.js",
+    "method": "GET",
+    "status": 200
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/js/151.93cf7b7c.chunk.js",
+    "method": "GET",
+    "status": 200
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/js/541.54ae6980.chunk.js",
     "method": "GET",
     "status": 200
   },
@@ -20,92 +40,77 @@
     "status": 200
   },
   {
-    "url": "https://ndosisimplifiedautomation.vercel.app/Nta%20Logo%20fnl.png",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/groups",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/groups",
-    "method": "GET",
-    "status": 200
-  },
-  {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/login",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/login",
     "method": "POST",
     "status": 200
   },
   {
-    "url": "https://ndosisimplifiedautomation.vercel.app/Nta%20Logo%20fnl.png",
-    "method": "GET",
-    "status": 200
-  },
-  {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
-    "method": "GET",
-    "status": 200
-  },
-  {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/my-instructors/today",
-    "method": "GET",
-    "status": 200
-  },
-  {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
-    "method": "GET",
-    "status": 200
-  },
-  {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/student/today",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/student/today",
     "method": "GET",
     "status": 404
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/my-enrollments",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/my-instructor-tasks",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/my-instructor-tasks",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/profile",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1792774742_cc5e1476.png",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/my-instructors/today",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/my-enrollments",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://ndosisimplifiedautomation.vercel.app/Nta%20Logo%20fnl.png",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/profile",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/profile",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/my-testimonials",
+    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1794252513_b7e2bccc.jpg",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/profile",
+    "method": "GET",
+    "status": 200
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/my-testimonials",
+    "method": "GET",
+    "status": 200
+  },
+  {
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/profile",
     "method": "PUT",
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/profile/image",
+    "url": "https://ndosisimplifiedautomation.vercel.app/APIDEV/profile/image",
     "method": "POST",
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1792774811_8379ed7a.jpg",
+    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1794253279_4e3dbfa4.jpg",
     "method": "GET",
     "status": 200
   }
