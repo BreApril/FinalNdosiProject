@@ -5,12 +5,12 @@
     "status": 200
   },
   {
-    "url": "https://ndosisimplifiedautomation.vercel.app/static/css/main.a444fab9.css",
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/css/main.8e40ec26.css",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://ndosisimplifiedautomation.vercel.app/static/js/main.295bba08.js",
+    "url": "https://ndosisimplifiedautomation.vercel.app/static/js/main.cba5bd1f.js",
     "method": "GET",
     "status": 200
   },
@@ -50,7 +50,7 @@
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/my-enrollments",
+    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
     "method": "GET",
     "status": 200
   },
@@ -60,22 +60,22 @@
     "status": 404
   },
   {
+    "url": "https://www.ndosiautomation.co.za/APIDEV/my-enrollments",
+    "method": "GET",
+    "status": 200
+  },
+  {
     "url": "https://www.ndosiautomation.co.za/APIDEV/my-instructor-tasks",
     "method": "GET",
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
+    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1792774742_cc5e1476.png",
     "method": "GET",
     "status": 200
   },
   {
     "url": "https://www.ndosiautomation.co.za/APIDEV/profile",
-    "method": "GET",
-    "status": 200
-  },
-  {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1789999548_0dbca2ae.jpg",
     "method": "GET",
     "status": 200
   },
@@ -105,7 +105,7 @@
     "status": 200
   },
   {
-    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1790081751_88a973a8.jpg",
+    "url": "https://www.ndosiautomation.co.za/APIDEV/uploads/profile-images/0a556ca0-f031-4fed-8690-3b292ce053e6_1792774811_8379ed7a.jpg",
     "method": "GET",
     "status": 200
   }
